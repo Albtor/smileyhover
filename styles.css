@@ -13,3 +13,26 @@
     /* cursor: cell; */
     cursor: url('bee.png'), auto;
 }
+
+.face::before {
+    content: '';
+    position: absolute;
+    top: 180px;
+    width: 150px;
+    height: 70px;
+    background: #b57700;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transition: 0.3s;
+
+}
+
+.face:hover::before {
+
+    top: 190px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #b57700;
+
+}
