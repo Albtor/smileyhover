@@ -14,3 +14,14 @@
     cursor: url('bee.png'), auto;
 }
 
+.face {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #ffcd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+}
