@@ -37,3 +37,13 @@
     transition: 0.3s;
 
 }
+
+.face:hover::before {
+
+    top: 190px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #b57700;
+
+}
