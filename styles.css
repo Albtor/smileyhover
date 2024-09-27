@@ -47,3 +47,10 @@
     background: #b57700;
 
 }
+
+.eyes {
+    position: relative;
+    top: -40px;
+    display: flex;
+
+}
