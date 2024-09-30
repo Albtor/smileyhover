@@ -25,6 +25,7 @@
     align-items: center;
     cursor: none;
 }
+
 .face::before {
     content: '';
     position: absolute;
@@ -54,7 +55,6 @@
     display: flex;
 
 }
-
 
 .eyes .eye {
     position: relative;
