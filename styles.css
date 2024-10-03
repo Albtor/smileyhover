@@ -36,7 +36,10 @@
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     transition: 0.3s;
+}
 
+.face:hover{
+    background: #ce2709;
 }
 
 .face:hover::before {
@@ -45,7 +48,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: #b57700;
+    background: #0a0700;
 
 }
 
